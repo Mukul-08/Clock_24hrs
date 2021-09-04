@@ -1,0 +1,87 @@
+#clockContainer{
+    position : relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    height: 440px;
+    width: 440px;
+    background: url(g2.png);
+    
+    background-size: 100%;
+    
+}
+
+body{
+  background-image: url(back.png);
+}
+#hour, #minute, #second{
+  
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+  
+   width: 2%;
+   height: 24%;
+   top: 115px;
+   left: 215.5px;
+   transform-origin: bottom;
+  
+   
+}
+
+#minute{
+  
+    width: 1.6%;
+    height: 31%;
+    top: 85px;
+    left: 49.3%;
+    transform-origin: bottom;
+  
+   
+}
+   
+
+#second{
+   
+
+    width: 1.2%;
+    height: 40%;
+    top: 45px;
+    left: 49.5%;
+    transform-origin: bottom;
+   
+}
+
+.cardcard1{
+    position: absolute;
+    margin-left: 550px;
+    /* margin-top: 0px; */
+    font-family: 'Lobster', cursive;
+    width: 550px;
+    height: 100px;
+  
+
+}
+
+
+
+
+.card1{
+
+    
+    
+        position: relative;
+        margin: auto;
+        height: 10vw;
+        width: 55vw;
+        background-color: rgb(87, 72, 156);
+        top: 47px;
+        left: 18px;
+ 
+    
+    
+}
